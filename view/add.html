@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Gatos</title>
+</head>
+<body>
+    <h1>Preencha o formulário abaixo:</h1>
+    <form id="myForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="cidade">Cidade:</label>
+        <input id="cidade" name="cidade" required><br>
+
+        <label for="estado">Estado:</label>
+        <input id="estado" name="estado" required><br>
+
+        <label for="bairro">Bairro:</label>
+        <input id="bairro" name="bairro" required><br>
+        
+        <label for="rua">Rua:</label>
+        <input id="rua" name="rua" required><br>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="AddController.js"></script>
+</body>
+</html>

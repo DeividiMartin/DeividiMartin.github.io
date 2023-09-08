@@ -4,11 +4,12 @@ export default class Controller {
     const container = document.getElementById('inicia');
 
     try {
-      const res = await fetch(`../view/${viewName}.html`);
+      const res = await fetch(`../view/html/${viewName}.html`);
       const htmlContent = await res.text();
       container.innerHTML = htmlContent;
     } catch(error){
         console.error('Erro ao carregamento do view home');
     };
   }
+
 }

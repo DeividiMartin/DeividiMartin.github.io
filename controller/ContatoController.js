@@ -1,9 +1,8 @@
-export class ContatoController{
-    constructor(){
+import Controller from '../classes/Controller.js';
 
-    }
-
-    render(){
-        
-    }
+export class ContatoController extends Controller {
+  constructor() {
+    super();
+    this._render('contato');
+  }
 }

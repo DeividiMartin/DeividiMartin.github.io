@@ -1,9 +1,8 @@
-export class SobreController{
-    constructor(){
+import Controller from '../classes/Controller.js';
 
-    }
-
-    render(){
-        
-    }
+export class SobreController extends Controller {
+  constructor() {
+    super();
+    this._render('sobre');
+  }
 }

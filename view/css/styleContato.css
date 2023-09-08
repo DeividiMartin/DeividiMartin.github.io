@@ -1,0 +1,117 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    border-top: 10px solid rgb(58, 58, 58);
+    background-color: rgba(39, 253, 103, 0.637);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+  }
+  
+  /* Logo da página */
+  #logo {
+    width: 250px;
+    height: 110px;
+    border-radius: 100%;
+    position: relative;
+    top: 60px;
+    left: 80px;
+  }
+  
+  /* Redes sociais do cabeçalho */
+  #social-icons {
+    width: 254px;
+    float: right;
+    position: relative;
+    top: 80px;
+  }
+  
+  #social-icons p {
+    font-size: 16px;
+  }
+  
+  /* Cada ícone da div de ícones */
+  .social-icon {
+    width: 50px;
+    margin: 0 10px;
+  }
+
+/* Estilo para a barra de navegação */
+#moreBar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#moreBar ul {
+    list-style-type: none;
+}
+
+#moreBar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#moreBar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para os títulos das seções */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo para as seções */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a lista de informações de contato */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para os links de e-mail */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilo para os links de redes sociais */
+ul li a {
+    color: #333;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para os links do rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para os links do rodapé quando hover */
+footer a:hover {
+    text-decoration: underline;
+}

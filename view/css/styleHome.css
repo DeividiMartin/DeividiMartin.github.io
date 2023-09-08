@@ -8,6 +8,44 @@ body {
   padding: 0;
 }
 
+/* Estilos para o cabeçalho */
+header {
+  border-top: 10px solid rgb(58, 58, 58);
+  background-color: rgba(39, 253, 103, 0.637);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
+
+/* Logo da página */
+#logo {
+  width: 250px;
+  height: 110px;
+  border-radius: 100%;
+  position: relative;
+  top: 60px;
+  left: 80px;
+}
+
+/* Redes sociais do cabeçalho */
+#social-icons {
+  width: 254px;
+  float: right;
+  position: relative;
+  top: 80px;
+}
+
+#social-icons p {
+  font-size: 16px;
+}
+
+/* Cada ícone da div de ícones */
+.social-icon {
+  width: 50px;
+  margin: 0 10px;
+}
+
 #supermenu {
   display: flex;
   justify-content: space-between;
@@ -358,3 +396,96 @@ body.menu-open #body {
   border-radius: 6px;
   display: block;
 }
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móveis */
+
+  /* Cabeçalho */
+ 
+  header {
+    height: 120px;
+  }
+
+  #logo {
+    width: 150px;
+    height: 70px;
+    top: 20px;
+    left: 20px;
+  }
+
+  #social-icons {
+    display: none;
+  }
+
+  /* Menu */
+  #supermenu {
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .barraMenu {
+    flex-direction: row-reverse;
+    gap: 8px;
+  }
+
+  .barraMenu li {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    top: 130px;
+    right: 340px;; 
+  }
+
+  .side-menu {
+    top: 182px;
+    width: 87%;
+    left: 0%;
+    height:310px;
+    padding: 20px;
+  }
+
+  body.menu-open #body {
+    left: 0;
+    bottom: 0;
+    transform: scale(0.8);
+    overflow: visible;
+  }
+
+#title{
+  font-size: 39px;
+}
+  /* Slide */
+  #carousel {
+    height: 300px;
+    top: 140px;
+  }
+  
+  #containLost li {
+    margin: 18px;
+    padding: 2px;
+    position: relative;
+    width: calc(69% - 0px)!important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+    background-color: #fff;
+    border-radius: 6px;
+    display: block;
+
+  }
+  .buttons {
+    display: flex;
+    gap: 260px;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    bottom: 160px;
+  }
+  /* Outras modificações para dispositivos móveis */
+  /* ... */
+}
+

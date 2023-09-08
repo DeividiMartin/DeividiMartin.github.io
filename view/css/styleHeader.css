@@ -1,35 +1,37 @@
+/* Estilos para o cabeçalho */
 header {
     border-top: 10px solid rgb(58, 58, 58);
-    background-color: rgb(39, 253, 103, 0.637);
+    background-color: rgba(39, 253, 103, 0.637);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 200px;
-}
-
-
-/* logo da pagina */
-#logo{
+  }
+  
+  /* Logo da página */
+  #logo {
     width: 250px;
     height: 110px;
     border-radius: 100%;
     position: relative;
     top: 60px;
     left: 80px;
-}
-/* Redes sociais do cabeçalho*/
-#social-icons {
-    width: 254px; /*Tamanho da div das redes sociais  */
-    float: right;   /* Faz a div ir para esquerda*/
+  }
+  
+  /* Redes sociais do cabeçalho */
+  #social-icons {
+    width: 254px;
+    float: right;
     position: relative;
     top: 80px;
-}
-#social-icons p{
+  }
+  
+  #social-icons p {
     font-size: 16px;
-   
-}
-/*Cada icone da div de icones */
-.social-icon {
-    width: 50px; /* Define o tamanho dos ícones */
-    margin: 0 10px; /* Adiciona margem entre os ícones */
-}
+  }
+  
+  /* Cada ícone da div de ícones */
+  .social-icon {
+    width: 50px;
+    margin: 0 10px;
+  }

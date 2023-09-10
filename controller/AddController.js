@@ -1,4 +1,4 @@
-import Controller from '../classes/Controller.js';
+import Controller from '../models/Controller.js';
 import { host } from '../config.js';
 
 // Altere a constante host para apontar para o URL do seu backend no Render

@@ -1,4 +1,4 @@
-import Controller from '../classes/Controller.js';
+import Controller from '../models/Controller.js';
 
 export class AjudaController extends Controller {
   constructor() {

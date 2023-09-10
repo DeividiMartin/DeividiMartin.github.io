@@ -115,3 +115,17 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    #social-icons{
+        display: none;
+    }
+    #logo {
+        width: 217px;
+        height: 119px;
+        border-radius: 100%;
+        position: relative;
+        top: 1px;
+        left: 80px;
+    }
+}

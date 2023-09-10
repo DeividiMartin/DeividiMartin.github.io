@@ -108,3 +108,9 @@ header {
     text-decoration: underline;
   }
   
+  @media (max-width: 768px) {
+    #social-icons{
+        display: none;
+    }
+    
+}

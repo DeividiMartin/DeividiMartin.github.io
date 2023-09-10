@@ -415,7 +415,19 @@ body.menu-open #body {
   }
 
   #social-icons {
+    width: 180px;
+    float: right;
+    position: relative;
+    top: 80px;
+  }
+  #social-icons p {
     display: none;
+    font-size: 16px;
+  }
+
+#social-icons img{
+  width: 30px;
+  height: 30px;
   }
 
   /* Menu */

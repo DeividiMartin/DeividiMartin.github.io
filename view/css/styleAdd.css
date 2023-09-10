@@ -121,3 +121,10 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #555;
 }
+
+@media (max-width: 768px) {
+    #social-icons{
+        display: none;
+    }
+
+}
